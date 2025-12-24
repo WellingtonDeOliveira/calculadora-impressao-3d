@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin</title>
+  <link rel="stylesheet" href="/src/css/dark.css">
+</head>
+<body>
+  <div class="card" id="loginCard">
+    <h2>Login ADM</h2>
+    <input id="user" placeholder="Usuário">
+    <input id="token" placeholder="Token">
+    <button id="btnLogin">Entrar</button>
+  </div>
+
+  <div class="card" id="panel" hidden>
+    <h3>Parâmetros</h3>
+    <label>Filamento (kg)</label>
+    <input id="filamento" placeholder="R$/kg">
+    </br>
+    <label>Potencia impresorra (W)</label>
+    <input id="watts" placeholder="Watts">
+    </br>
+    <label>Custo Energetico</label>
+    <input id="energia" placeholder="R$/kWh">
+    </br>
+    <label>Margem de lucro (%)</label>
+    <input id="lucro" placeholder="Lucro %">
+    <button id="btnSalvar">Salvar</button>
+
+    <h3>Orçamentos</h3>
+    <table id="tabela"></table>
+  </div>
+
+  <script type="module" src="/src/js/admin.js"></script>
+</body>
+</html>

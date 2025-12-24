@@ -1,0 +1,4 @@
+filamento=90
+watts=500
+energia=0.95
+lucro=300
